@@ -23,6 +23,7 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.19.2",
+    "module-alias": "^2.2.3",
     "tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
