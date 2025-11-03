@@ -43,6 +43,8 @@ app.use('/api/v1/cart', authMiddleware, cartRouter);
 app.use(notFoundMiddleware);
 app.use(errorHandlerMiddleware);
 
+console.log('🚀 ~ app:');
+
 const startApplication = async () => {
   try {
     await connectDatabase();
