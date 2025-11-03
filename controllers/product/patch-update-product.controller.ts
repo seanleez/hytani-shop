@@ -1,7 +1,7 @@
-import { CustomError, UnauthorizedError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { ProductModel } from '@/models';
+import { CustomError, UnauthorizedError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { ProductModel } from '@models';
 import { RequestHandler } from 'express';
 
 export const patchUpdateProductController: RequestHandler = asyncWrapperMiddleware(async (req, res, next) => {

@@ -4,7 +4,7 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'none',
   arrowParens: 'avoid',
-  importOrder: ['<THIRD_PARTY_MODULES>', '', '^@/(.*)$', '', '^[./]'],
+  importOrder: ['<THIRD_PARTY_MODULES>', '', '^@(.*)$', '', '^[./]'],
   importOrderSortSpecifiers: true,
   importOrderCaseInsensitive: true,
   plugins: ['@ianvs/prettier-plugin-sort-imports']

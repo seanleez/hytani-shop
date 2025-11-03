@@ -4,7 +4,7 @@ import {
   patchUpdateProductQuantityInCartController,
   postAddProductToCartController,
   postCheckoutCartProductsController
-} from '@/controllers';
+} from '@controllers';
 import express from 'express';
 
 const cartRouter = express.Router();

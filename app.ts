@@ -1,17 +1,16 @@
 import path from 'path';
+import { connectDatabase } from '@db/connect';
+import authRouter from '@routes/auth.route';
+import balanceRouter from '@routes/balance.route';
+import cartRouter from '@routes/cart.route';
+import productRouter from '@routes/product.route';
+import profileRouter from '@routes/profile.route';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import express from 'express';
 import rateLimit from 'express-rate-limit';
 import { xss } from 'express-xss-sanitizer';
 import helmet from 'helmet';
-
-import { connectDatabase } from '@/db/connect';
-import authRouter from '@/routes/auth.route';
-import balanceRouter from '@/routes/balance.route';
-import cartRouter from '@/routes/cart.route';
-import productRouter from '@/routes/product.route';
-import profileRouter from '@/routes/profile.route';
 
 import { authMiddleware, errorHandlerMiddleware, notFoundMiddleware } from './middlewares';
 

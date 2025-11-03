@@ -1,7 +1,7 @@
-import { BadRequestError, NotFoundError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { CartModel, UserBalanceModel } from '@/models';
+import { BadRequestError, NotFoundError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { CartModel, UserBalanceModel } from '@models';
 import mongoose from 'mongoose';
 
 export const postCheckoutCartProductsController = asyncWrapperMiddleware(async (req, res, next) => {

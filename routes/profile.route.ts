@@ -1,4 +1,4 @@
-import { getProfileController } from '@/controllers';
+import { getProfileController } from '@controllers';
 import express from 'express';
 
 const profileRouter = express.Router();

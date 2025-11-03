@@ -1,7 +1,7 @@
-import { DEFAULT_PAGE, DEFAULT_PAGE_SIZE, EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { TProduct, ProductModel, ProductSchema } from '@/models';
-import { TGetItemsResBody, ESortDirection, TGetItemsCommonQuery } from '@/types';
+import { DEFAULT_PAGE, DEFAULT_PAGE_SIZE, EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { ProductModel, ProductSchema, TProduct } from '@models';
+import { ESortDirection, TGetItemsCommonQuery, TGetItemsResBody } from '@types';
 import { RequestHandler } from 'express';
 
 export type TProductRequestQuery<T extends Record<string, any> = Record<string, any>> = Partial<Record<keyof TProduct, string>> &

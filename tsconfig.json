@@ -16,7 +16,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"],
+      "@*": ["./*"],
+      "@db/*": ["./db/*"],
       "@controllers/*": ["./controllers/*"],
       "@routes/*": ["./routes/*"],
       "@middlewares/*": ["./middlewares/*"],

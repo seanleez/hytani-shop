@@ -1,7 +1,7 @@
-import { NotFoundError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { UserBalanceModel } from '@/models';
+import { NotFoundError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { UserBalanceModel } from '@models';
 import mongoose from 'mongoose';
 
 export const getMyBalanceController = asyncWrapperMiddleware(async (req, res, next) => {

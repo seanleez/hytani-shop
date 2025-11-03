@@ -1,6 +1,6 @@
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { CartModel, EUserType, IUser, UserBalanceModel, UserModel, UserProfileModel } from '@/models';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { CartModel, EUserType, IUser, UserBalanceModel, UserModel, UserProfileModel } from '@models';
 import { RequestHandler } from 'express';
 
 export type TRegisterRequestBody = IUser & { type?: EUserType };

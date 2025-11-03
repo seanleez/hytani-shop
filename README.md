@@ -208,7 +208,7 @@ The project uses:
 
 - TypeScript for type safety
 - Nodemon for hot-reloading during development
-- Path aliases (`@/`) for cleaner imports
+- Path aliases (`@`) for cleaner imports
 
 ## License
 

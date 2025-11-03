@@ -1,7 +1,7 @@
-import mongoose, { Model } from 'mongoose';
+import { TJWTDecodePayload } from '@middlewares';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { TJWTDecodePayload } from '@/middlewares';
+import mongoose, { Model } from 'mongoose';
 
 export interface IUser {
   username: string;

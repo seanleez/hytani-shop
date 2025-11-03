@@ -1,6 +1,6 @@
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { CartModel } from '@/models';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { CartModel } from '@models';
 import mongoose from 'mongoose';
 
 export const getCartController = asyncWrapperMiddleware(async (req, res, next) => {

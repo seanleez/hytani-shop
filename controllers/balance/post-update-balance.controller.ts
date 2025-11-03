@@ -1,7 +1,7 @@
-import { BadRequestError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { UserBalanceModel } from '@/models';
+import { BadRequestError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { UserBalanceModel } from '@models';
 import { RequestHandler } from 'express';
 import mongoose from 'mongoose';
 

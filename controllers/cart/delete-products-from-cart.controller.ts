@@ -1,7 +1,7 @@
-import { BadRequestError, NotFoundError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { CartModel } from '@/models';
+import { BadRequestError, NotFoundError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { CartModel } from '@models';
 import { RequestHandler } from 'express';
 import mongoose from 'mongoose';
 

@@ -1,7 +1,7 @@
-import { BadRequestError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { IUser, UserModel } from '@/models';
+import { BadRequestError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { IUser, UserModel } from '@models';
 import { RequestHandler } from 'express';
 
 export type TLoginRequestBody = Omit<IUser, 'email'>;

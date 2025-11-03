@@ -1,9 +1,8 @@
+import { NotFoundError } from '@classes';
+import { EStatusCode } from '@constants';
+import { asyncWrapperMiddleware } from '@middlewares';
+import { UserProfileModel } from '@models';
 import mongoose from 'mongoose';
-
-import { NotFoundError } from '@/classes';
-import { EStatusCode } from '@/constants';
-import { asyncWrapperMiddleware } from '@/middlewares';
-import { UserProfileModel } from '@/models';
 
 export const getProfileController = asyncWrapperMiddleware(async (req, res, next) => {
   const { userId } = res.locals.user ?? {};

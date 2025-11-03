@@ -1,4 +1,4 @@
-import { getMyBalanceController, postUpdateBalanceController } from '@/controllers';
+import { getMyBalanceController, postUpdateBalanceController } from '@controllers';
 import express from 'express';
 
 const balanceRouter = express.Router();

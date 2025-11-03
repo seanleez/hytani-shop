@@ -1,4 +1,4 @@
-import { postLoginController, postRegisterController } from '@/controllers';
+import { postLoginController, postRegisterController } from '@controllers';
 import express from 'express';
 
 const authRouter = express.Router();

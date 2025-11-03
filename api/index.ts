@@ -1,4 +1,4 @@
-import { connectDatabase } from '@/db/connect';
+import { connectDatabase } from '@db/connect';
 
 import app from '../app';
 
