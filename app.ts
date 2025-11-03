@@ -45,13 +45,19 @@ app.use(errorHandlerMiddleware);
 
 console.log('🚀 ~ app:');
 
-const startApplication = async () => {
-  try {
-    await connectDatabase();
-    app.listen(port, () => console.log(`Server is running on port ${port}`));
-  } catch (error) {
-    console.log(error);
-  }
-};
+// Export app for Vercel serverless function
+export default app;
 
-startApplication();
+// Start server only if not in Vercel serverless environment
+if (!process.env.VERCEL) {
+  const startApplication = async () => {
+    try {
+      await connectDatabase();
+      app.listen(port, () => console.log(`Server is running on port ${port}`));
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  startApplication();
+}
