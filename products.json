@@ -1,0 +1,209 @@
+[
+  {
+    "name": "accent chair",
+    "description": "A stylish accent chair that adds elegance to any room",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/accent-chair.jpg",
+    "price": 25,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "albany sectional",
+    "description": "Comfortable sectional sofa perfect for family gatherings",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/albany-sectional.jpg",
+    "price": 109,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "albany table",
+    "description": "Elegant dining table with modern design",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/albany-table.jpg",
+    "price": 309,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "armchair",
+    "description": "Comfortable armchair for relaxing moments",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/armchair.jpg",
+    "price": 125,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "bar stool",
+    "description": "Modern bar stool for kitchen or bar area",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/bar-stool.jpg",
+    "price": 40,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "dining table",
+    "description": "Practical dining table for everyday meals",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/dining-table.jpg",
+    "price": 42,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "emperor bed",
+    "description": "Luxurious emperor-sized bed for ultimate comfort",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/emperor-bed.jpg",
+    "price": 23,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "entertainment center",
+    "description": "Spacious entertainment center for your TV and media",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/entertainment-center.jpg",
+    "price": 59,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "high-back bench",
+    "description": "Stylish high-back bench for entryway or dining area",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/high-back-bench.jpg",
+    "price": 39,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "leather sofa",
+    "description": "Classic leather sofa with timeless appeal",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/leather-sofa.jpg",
+    "price": 99,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "modern bookshelf",
+    "description": "Sleek modern bookshelf for organizing your library",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/modern-bookshelf.jpg",
+    "price": 31,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "modern poster",
+    "description": "Contemporary poster for wall decoration",
+    "category": "ACCESSORY",
+    "thumbnail": "https://example.com/images/modern-poster.jpg",
+    "price": 30,
+    "rating": 2,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "book shelf",
+    "description": "Versatile shelf for storage and display",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/shelf.jpg",
+    "price": 30,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "simple chair",
+    "description": "Simple and elegant chair design",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/simple-chair.jpg",
+    "price": 109,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "sofa set",
+    "description": "Complete sofa set for your living room",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/sofa-set.jpg",
+    "price": 129,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "suede armchair",
+    "description": "Luxurious suede armchair for comfort and style",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/suede-armchair.jpg",
+    "price": 15,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "utopia sofa",
+    "description": "Dream sofa for ultimate relaxation",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/utopia-sofa.jpg",
+    "price": 79,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "vase table",
+    "description": "Elegant table with built-in vase design",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/vase-table.jpg",
+    "price": 120,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "wooden bed",
+    "description": "Classic wooden bed frame with natural finish",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/wooden-bed.jpg",
+    "price": 25,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "wooden desk",
+    "description": "Sturdy wooden desk for home office",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/wooden-desk-1.jpg",
+    "price": 15,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "wooden desk",
+    "description": "Premium wooden desk with drawers",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/wooden-desk-2.jpg",
+    "price": 40,
+    "rating": 4,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "wooden table",
+    "description": "Rustic wooden table for dining or workspace",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/wooden-table.jpg",
+    "price": 23,
+    "rating": 3,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  },
+  {
+    "name": "a first wooden table",
+    "description": "Handcrafted wooden table with unique character",
+    "category": "FURNITURE",
+    "thumbnail": "https://example.com/images/a-first-wooden-table.jpg",
+    "price": 23,
+    "rating": 5,
+    "listedBy": { "$oid": "6905a20b5ba6d7eb5f8630f8" }
+  }
+]

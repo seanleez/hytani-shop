@@ -1,0 +1,9 @@
+# Add files here to ignore them from prettier formatting
+/dist
+/coverage
+pnpm-lock.yaml
+/.nx
+/pnpm-patches
+/.pnpm-store
+/.local
+/.npm

@@ -1,0 +1,6 @@
+{
+  "watch": ["*.ts"],
+  "ignore": ["dist/**/*", "node_modules/**/*", "*.log"],
+  "ext": "ts",
+  "exec": "npx ts-node -r tsconfig-paths/register app.ts"
+}
